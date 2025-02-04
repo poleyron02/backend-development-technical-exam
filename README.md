@@ -41,7 +41,7 @@ py -m fastapi dev .\main.py
 ```
 
 The server will start on `http://127.0.0.1:8000`.
-
+You can access the API documentation at `http://127.0.0.1:8000/docs`.
 ## Running the Watcher Service
 
 1. Open a new terminal.
