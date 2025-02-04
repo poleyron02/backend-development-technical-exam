@@ -4,6 +4,4 @@ pymongo
 python-dotenv
 watchdog
 pandas
-shutil
-asyncio
 pydantic
