@@ -63,5 +63,19 @@ To install MongoDB locally, follow these steps:
 2. Follow the installation instructions for your specific Windows version.
 3. After installation, start the MongoDB server from the MongoDB Compass or as a Windows service.
 4. Verify that MongoDB is running by connecting to the MongoDB shell using MongoDB Compass or another MongoDB client.
+## Creating a MongoDB Connection String
 
+1. Open MongoDB Compass or your preferred MongoDB client.
+2. Create a new connection by providing the necessary details such as hostname, port, and authentication.
+3. Once connected, copy the connection string provided by the client.
+
+Example connection string format:
+```
+mongodb://username:password@hostname:port/database
+```
+
+4. Paste the copied connection string into the `.env` file created earlier:
+```
+MONGO_URL=mongodb://username:password@hostname:port/database
+```
 Now you have a local MongoDB server running and can proceed with the rest of the setup.
