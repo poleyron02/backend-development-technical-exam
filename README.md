@@ -61,14 +61,7 @@ To install MongoDB locally, follow these steps:
 
 1. Download the MongoDB Community Edition from the [official MongoDB website](https://www.mongodb.com/products/self-managed/community-edition).
 2. Follow the installation instructions for your specific Windows version.
-3. After installation, start the MongoDB server.
-```sh
-mongod
-```
-4. Verify that MongoDB is running by connecting to the MongoDB shell.
-```sh
-mongo
-```
-You should see the MongoDB shell prompt if the server is running correctly.
+3. After installation, start the MongoDB server from the MongoDB Compass or as a Windows service.
+4. Verify that MongoDB is running by connecting to the MongoDB shell using MongoDB Compass or another MongoDB client.
 
 Now you have a local MongoDB server running and can proceed with the rest of the setup.
