@@ -45,12 +45,30 @@ The server will start on `http://127.0.0.1:8000`.
 ## Running the Watcher Service
 
 1. Open a new terminal.
-2. Navigate to the `services` directory.
+2. Navigate to the `service` directory.
 ```sh
-cd services
+cd service
 ```
 3. Run the watcher service.
 ```sh
 py watcher.py
 ```
 The watcher will monitor the upload directory and process new CSV files.
+
+## Installing MongoDB Locally
+
+To install MongoDB locally, follow these steps:
+
+1. Download the MongoDB Community Edition from the [official MongoDB website](https://www.mongodb.com/products/self-managed/community-edition).
+2. Follow the installation instructions for your specific Windows version.
+3. After installation, start the MongoDB server.
+```sh
+mongod
+```
+4. Verify that MongoDB is running by connecting to the MongoDB shell.
+```sh
+mongo
+```
+You should see the MongoDB shell prompt if the server is running correctly.
+
+Now you have a local MongoDB server running and can proceed with the rest of the setup.
